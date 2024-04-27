@@ -3,7 +3,13 @@
     background-color: burlywood;
     ;
     z-index: 1;
-    
+
+}
+.navbar-nav{
+    flex-direction: row;    
+}
+.nav-link{
+    margin-right: 2rem;
 }
 
 .card{

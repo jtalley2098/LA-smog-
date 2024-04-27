@@ -1,4 +1,10 @@
 
+.navbar{
+    background-color: burlywood;
+    ;
+    z-index: 1;
+}
+
 .card{
     display: flex;
     

@@ -1,7 +1,7 @@
 
 .navbar{
     background-color: burlywood;
-    ;
+    
     z-index: 1;
 
 }
@@ -12,22 +12,77 @@
     margin-right: 2rem;
 }
 
+
+    .carousel {
+      width: 500px;
+      height: 700px;
+    }
+  
+   /* .carousel-item,
+    .carousel-item img {
+      height: 300px;
+    }*/
+  
+  .bg-image{
+    border: solid 25px burlywood;
+    border-radius: 15px;
+  }
+  
+
 .card{
-    display: flex;
     
+    width: 100%;
+    display: flex;
+    padding: 2rem;
     background-color: burlywood;
-    padding:40px;
-    margin-top: -80px;
+    align-items: center;
+    justify-content: center;
+    
+    img{
+        margin: 0 auto;
+        
+       
+    }
+   
 }
+#carouselExampleControls .carousel-control-prev,
+#carouselExampleControls  .carousel-control-next {
+filter: invert(1);
+
+}
+
+.carousel-control-prev {
+  left: -25%; /* Adjust the left position as needed */
+}
+
+.carousel-control-next {
+  right: -25%; /* Adjust the right position as needed */
+}
+
 .card-text{
    margin-top: 7%;
     color:aliceblue;
     font-size: 1.5rem;
     line-height: 1.5;
 }
-.container-1{
-   margin-top: 5%;
-   
+footer {
+    color: aliceblue;
+    background-color: burlywood;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+    
+    .text-start{
+        margin: 10px 0 10px 20px;
+     }
+     .text-end{
+        margin: 10px 20px 10px 0;
+      }
+    
+
+
+
 
   
